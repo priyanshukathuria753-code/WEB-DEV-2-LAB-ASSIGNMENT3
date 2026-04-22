@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Full screen container */
+
+.container {
+  width: 100vw;
+  min-height: 100vh;
+
+  background: linear-gradient(135deg,#667eea,#764ba2);
+
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+/* Heading */
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+/* Form */
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+
+input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Buttons */
+
+button {
+  padding: 10px 16px;
+  border: none;
+  background: #667eea;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #5563d1;
+}
+
+/* Table */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background: #667eea;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+/* Pass Fail */
+
+.pass {
+  color: green;
+  font-weight: bold;
+}
+
+.fail {
+  color: red;
+  font-weight: bold;
+}
+
+/* Stats */
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.card {
+  flex: 1;
+  margin: 5px;
+  padding: 15px;
+  background: white;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.card.pass {
+  background: #d4edda;
+}
+
+.card.fail {
+  background: #f8d7da;
+}
